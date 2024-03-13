@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vídeos em HTML5</title>
+    </head>
+    <body>
+        <h1>Inserindo Vídeos hospedados localmente!</h1>
+
+        <p>Este vídeo está hospedado no meu proprio server</p>
+
+        <video src="midia/PYTHON para HATERS em 100 segundos.mp4" width="300px" controls></video>
+        <br>
+        <h1>Inserindo vídeos de servers externos!</h1>
+        <p>Este vídeo nao está hospedado no meu server</p>
+
+        <!--videos seguem o mesmo sentido dos audios, ha como colocar varios videos em outros formatos para o caso da
+        falta de compatibilidade dos navegadores. Ex:  -->
+
+        <!--<video>  width="300px" controls
+            <source src="midia/PYTHON para HATERS em 100 segundos.mp4" width="300px" controls type="video/mp4">
+            <source src="midia/PYTHON para HATERS em 100 segundos.m4v" width="300px" controls type="video/mp4">
+            <source src="midia/PYTHON para HATERS em 100 segundos.ogv" width="300px" controls type="video/ogg">
+            <source src="midia/PYTHON para HATERS em 100 segundos.webm" width="300px" controls type="video/webm">
+
+            <p>Seu navegador nao é compativel com loading de video!</p>
+            <a href="midia/PYTHON para HATERS em 100 segundos.mp4">Clique aqui para baixar o vídeo</a>
+        </video>-->
+
+        <!--Também é possivel colocar videos no seu site de modo que eles nao consumam banda do seu server e sim do server original do video. EX: -->
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=-7O8JdwT2BPqXIVR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+    </body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping Tags</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+
+      p {
+        background-color: rgb(186, 194, 200);
+        font-weight: bold;
+      }
+
+      nav > p {
+        font-weight: normal;
+        background-color: aliceblue;
+        text-align: left;
+      }
+
+      nav a {
+        text-decoration: none;
+        padding-right: 10px;
+        transition: all 0.3s ease;
+      }
+
+      nav a:hover {
+        color: rgb(99, 236, 99);
+        text-decoration: underline;
+      }
+
+      header {
+        background-color: bisque;
+        font-size: large;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+
+      main {
+        width: 650px;
+        margin: auto;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 3px 3px 3px rgb(154, 154, 154);
+        margin-bottom: 10px;
+      }
+
+      footer {
+        font-size: small;
+        background-color: aqua;
+        text-align: center;
+      }
+
+      section {
+        width: 600px;
+        background-color: #faebd7;
+        margin: auto;
+        padding: 10px;
+        box-shadow: 5px 5px 3px #b6ab9d88;
+        border-radius: 5px;
+      }
+
+      article {
+        text-decoration: underline;
+        font-style: italic;
+      }
+
+      aside {
+        font-size: small;
+        background-color: rgba(0, 0, 0, 0.626);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Divs semanticas do HTML5</h1>
+
+    <p>
+      Em HTML5, criaram-se as divs semanticas como a "header", "main", "footer",
+      "nav", "section", "aside", "article" para que tenha um sentido na
+      organização do site e nao fique apenas cheio de divs identificadas
+    </p>
+
+    <nav>
+      <p>
+        Navigation, onde coloca as coisas do menu. Geralmente coloca-se links
+        aqui.
+      </p>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+    </nav>
+
+    <main>
+      <header>Header, onde coloca o cabeçalho do site</header>
+
+      Main, onde coloca-se todo o conteudo principal do site
+
+      <section>
+        Section, responsavel pela separação dos conteudos do site
+      </section>
+
+      <article>
+        Article, nao entendi mto, me parece que é usado quando vai colocar algo
+        externo no site como uma parte de uma notícia
+      </article>
+
+      <aside>
+        Aside, usado para escrever algo em torno do article, mas nao se limita a
+        isso
+      </aside>
+    </main>
+
+    <footer>Footer, onde coloca-se o rodapé do site</footer>
+  </body>
+</html>

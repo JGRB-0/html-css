@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mídias em HTML5</title>
+    </head>
+    <body>
+
+        <h1>Imagens Flexíveis.</h1>
+
+        <p></p>
+
+        <picture>
+
+            <source media="(max-width: 720px )" srcset="imagens/imagem-300.png" type="image/png">
+            <source media="(max-width: 1020px )" srcset="imagens/imagem-700.webp" type="image/webp">
+            <img src="imagens/imagem-1000.png" >
+
+        </picture>
+
+        <h1>Colocando Audios no Site!</h1>
+
+        <audio src="midia/Churrasquinho do Menos é Mais - Quem_Frenesi_Deixa Alagar.mp3" controls></audio>
+
+        <!-- Também pode-se colocar audios no site de outra forma:-->
+        <audio preload="metadata" controls autoplay>
+            <source src="midia/Churrasquinho do Menos é Mais - Quem_Frenesi_Deixa Alagar.mp3" type="audio/mpeg">
+            <source src="midia/Churrasquinho do Menos é Mais - Quem_Frenesi_Deixa Alagar.ogg" type="audio/ogg">
+            <source src="midia/Churrasquinho do Menos é Mais - Quem_Frenesi_Deixa Alagar.wav" type="audio/wav">
+            <!-- Dessa forma, o codigo tenta carregar arquivo por arquivo, caso nao encontre voce pode escrever algo no fim para avisar que o arquivo nao foi carregado-->
+            <p>Ocorreu um erro e o arquivo nao pode ser carregado. <a href="midia/Churrasquinho do Menos é Mais - Quem_Frenesi_Deixa Alagar.mp3">Baixar audio</a></p>]
+            <!-- O opera é compativel com tudo, nao consegui testar isso-->
+
+        </audio>
+
+        
+    </body>
+</html>

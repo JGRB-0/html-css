@@ -1,0 +1,23 @@
+div{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+}
+
+div:hover{
+    background-color: aquamarine;
+    transition: ease-in-out 1s
+}
+
+div >h1, div >p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    background-color: aliceblue; 
+}
+

@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: android;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body{
+    font-family: android;
+    background-color: #04BF9D;
+    color: #172026;
+    margin: 0%;
+}
+p{
+    margin-inline-start: 20px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #5FCDD9, #015151);
+    text-align: center;
+    padding: 15px;
+}
+
+header > h1{
+    margin: 0px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.105);
+}
+header > p{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.105);
+    margin-inline-start: 20px;
+}
+
+nav{
+    text-align: left;
+}
+
+header nav a{
+    display:inline-block;
+    color: #04BF9D;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+header nav a:hover{
+    background-color:#013333;
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 5px #038870a5;
+    color: black;
+}
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+main a{
+    text-decoration: none;
+    color: #04BF9D;
+    background-color: #00282088;
+}
+
+.subtitulo{
+    background-image: linear-gradient(to right, #00d4ad9a, white);
+}
+
+i{
+    width: 20px;
+    color: rgb(255, 255, 255);
+}
+
+picture{
+    text-align: center;
+}
+
+.video{
+    background-color: #013333;
+    text-align: center;
+    padding: 10px;
+    align-content: center;
+    margin-bottom: 0;
+}
+
+.extra h3{
+    background-color: #172026;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+main .extra .conteudo p{
+    padding: 10px;
+    margin: 0;
+    margin-inline-start: 20px;
+}
+
+main .extra .conteudo ul{
+    margin: 0;
+    display: inline-block;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+main .extra .conteudo{
+    background-color: #00deb695;
+    border-radius: 0px 0px 10px 10px;
+}
+.extra .conteudo a{
+    color: white
+}
+
+footer{
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    background-color: #172026;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+    

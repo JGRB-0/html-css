@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teoria das Caixas</title>
+    <style>
+      div > h1, div > p{
+    display: none;
+}
+
+div:hover > h1,div:hover > p{
+    width: 1200px;
+    display: block;
+}
+
+a{
+    color: blue;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    padding: 5px;
+    margin: 10px;
+}
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Aprendendo sobre teoria das caixas em HTML e CSS</h1>
+      <p>
+        Todas as coisas que aparecem num site html sao caixas, o h1 é um exemplo
+        disso. Nas CSS's, podemos modificar essas caixas em quesito altura
+        (height), largura (widith), entre outras modificações.
+      </p>
+      <p>
+        As boxes tambem tem bordas, bem grudadas ao conteudo, mas pode-se criar
+        um "pading", um espaço entre a borda e o conteudo.
+      </p>
+      <p>
+        Também podemos criar bordas externas nas boxes, sao as chamadas "margin"
+      </p>
+      <p>
+        alem da margin, podemos fazer uma camada a mais chamada "outline", seria
+        o contorno da caixa
+      </p>
+      <h1>Tipos de Caixa</h1>
+      <p>
+        box-level: uma caixa que pula pra linha de baixo e a ocupa inteiramente.
+        Uma "div" por exemplo
+      </p>
+      <p>
+        inline-level: uma caixa que nao pula para a linha de baixxo e nao ocupa
+        a linha inteiramente. Um "span" por exemplo
+      </p>
+      <p>
+        box-level: div, h1-h6, p, main, header, nav, article, aside, footer,
+        form, video
+      </p>
+      <p>
+        inline-level: span, a, code, small, strong, em, sup-sub, label, button,
+        select
+      </p>
+
+      <a href="#">MOSTRAR CONTEUDO DA AULA</a>
+    </div>
+
+    <h1 class="exemplo">Exemplo de Box-Level</h1>
+
+    <p>
+      Links sao um exemplo de inline-level, pois:
+      <a href="https://www.youtube.com" target="_blank">YouTube</a>; nao ocupam
+      a linha toda, enquanto o titulo (h1), ocupa todo a linha.
+    </p>
+  </body>
+</html>

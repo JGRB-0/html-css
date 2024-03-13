@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font: normal, 1em, arial; 
+}
+
+/* Para tamanho de fonte, os recomendados sao as unidades de medida "px" e "em", em destaque, o "em". 1em tem 16px */ 
+
+/* Para personalizar a fonte, ha varias formas, mas a mais eficaz é a tag "font:" tem que colcoar o estilo, o peso, tamanho e familia. Mas a fonte escolhida tem que ter todas essas personalizações aceitas*/
